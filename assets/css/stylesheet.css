@@ -78,7 +78,7 @@ main div ol {
 }
 
 main div ol li {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 main div ol li ul {
@@ -121,4 +121,38 @@ main div ol .cross {
     color: red;
 }
 
+/****************** badge ******************/
 
+main div ol li ul .badge {
+    height: 20px;
+    width: 60px;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 20px;
+    color: white;   
+}
+
+main div ol li ul .badge.editorial {
+    background-color: #48A8F0;
+}
+
+main div ol li ul .badge.goals {
+    background-color: #9A74E0;
+}
+
+main div ol li ul .badge.recruiting {
+    background-color: #60C4AB;
+}
+
+main div ol li ul .badge.mobile {
+    background-color: #EEA32A;
+}
+
+main div ol li ul .badge.website {
+    background-color: #D664A7;
+}
+
+main div ol li ul .badge.sales {
+    background-color: #AFC928;
+}
