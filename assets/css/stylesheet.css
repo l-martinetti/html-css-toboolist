@@ -13,7 +13,6 @@ body {
 .container {
     width: 60%;
     margin: 0 auto;
-    margin-top: 110px;
     background-color: white;
 }
 
@@ -37,3 +36,32 @@ header h1.title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/****************** main ******************/
+
+main div.container {
+    margin-top: 50px;
+    max-width: 60%;
+    height: 500px;
+}
+
+/****************** pulsanti ******************/
+
+main div span {
+    display: inline-block;
+}
+
+main div .pulsanti {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #45AFED;
+    color: white;   
+}
+
+main div .pulsanti.section {
+    background-color: white;
+    color: lightgray;
+    border: 1px solid lightgray;
+}
