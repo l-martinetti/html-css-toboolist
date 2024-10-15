@@ -39,9 +39,11 @@ header h1.title {
 /****************** main ******************/
 
 main div.container {
-    margin-top: 50px;
     max-width: 60%;
-    height: 500px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 40px;
 }
 
 /****************** pulsanti ******************/
@@ -64,4 +66,10 @@ main div .pulsanti.section {
     background-color: white;
     color: lightgray;
     border: 1px solid lightgray;
+}
+
+/****************** list ******************/
+
+main div.container.list {
+    margin-top: 2px;
 }
